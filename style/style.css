@@ -214,7 +214,8 @@ li a:hover {
   color: white;
   cursor: pointer;
   border-radius: 15px;
-  font-size: 0.7vw;
+  font-size: 0.6vw;
+  font-family: "Roboto Mono", monospace;
 }
 
 .btn:hover {
