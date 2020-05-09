@@ -118,6 +118,9 @@ li a:hover {
 
 .about {
   font-size: 1.47vw;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .awards {
