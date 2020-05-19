@@ -13,23 +13,11 @@ nav {
     rgba(72, 255, 152, 1) 100%
   );
   margin: 0;
-}
-
-#navbar {
-  overflow: hidden;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+  height: 80px;
 }
 
 .parallax-image {
-    height: 92.5vh;
+    height: 300px;
 }
 
 .sticky {
