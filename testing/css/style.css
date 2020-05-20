@@ -6,18 +6,27 @@ body {
 }
 
 nav {
-  background: linear-gradient(
-    90deg,
-    rgba(0, 120, 170, 1) 0%,
-    rgba(0, 245, 255, 1) 51%,
-    rgba(72, 255, 152, 1) 100%
-  );
   margin: 0;
   height: 80px;
 }
 
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
 .parallax-image {
-    height: 300px;
+  height: 300px;
 }
 
 .sticky {
@@ -31,7 +40,12 @@ nav {
 }
 
 .gradient {
-  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 120, 170, 1) 0%,
+    rgba(0, 245, 255, 1) 49%,
+    rgba(56, 187, 125, 1) 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
