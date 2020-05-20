@@ -69,6 +69,26 @@ object {
   background-color: #36393f !important;
 }
 
+@media screen and (max-width: 800px) {
+  .typewriter1 {
+    font-size: 25px !important;
+  }
+
+  .typewriter2 {
+    font-size: 15px !important;
+  }
+
+  h1.cursor::after {
+    height: 20px !important;
+    width: 10px !important;
+  }
+
+  p.cursor::after {
+    height: 15px !important;
+    width: 7px!important;
+  }
+}
+
 .mb-0 {
   font-size: 1.6rem;
 }
@@ -247,13 +267,14 @@ object {
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
+
 h1.cursor::after {
-  height: 3vw;
-  width: 1.5vw;
+  height: 43px;
+  width: 20px;
 }
 p.cursor::after {
-  height: 2vw;
-  width: 0.8vw;
+  height: 26px;
+  width: 12px;
 }
 
 @keyframes blink {
