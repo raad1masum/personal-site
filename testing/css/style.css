@@ -68,10 +68,6 @@ hr {
   box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
 
-.parallax-image {
-  height: 300px;
-}
-
 .sticky {
   position: fixed;
   top: 0;
