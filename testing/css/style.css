@@ -83,6 +83,10 @@ object {
   margin-top: 50px;
 }
 
+.award {
+  font-size: 1vw !important;
+}
+
 .awards-accordion {
   box-shadow: 5px 10px 20px #00e5ee !important;
 }
