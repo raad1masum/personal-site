@@ -84,6 +84,7 @@ nav {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
+  background: #00e5ee;
   background: linear-gradient(
     180deg,
     rgba(0, 120, 170, 1) 0%,
@@ -95,6 +96,7 @@ nav {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
+  background: #00e5ee;
   background: linear-gradient(
     180deg,
     rgba(0, 120, 170, 1) 0%,
