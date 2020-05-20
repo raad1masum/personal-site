@@ -59,7 +59,8 @@ object {
   top: -70px; /* you'll have to figure out the exact number here */
 }
 
-.navbar-fixed-top, .navbar-fixed-bottom {
+.navbar-fixed-top,
+.navbar-fixed-bottom {
   position: relative; /* this can also be static */
 }
 
@@ -96,7 +97,7 @@ object {
 }
 
 .container-is-open {
-  padding-top:200px;
+  padding-top: 200px;
 }
 
 .awards-accordion {
@@ -137,11 +138,33 @@ object {
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  width: 58.5vw;
+  width: 90%;
   text-align: center;
   text-decoration: none;
   margin: 20px;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .team {
+    margin: 0 auto;
+    background-color: #36393f94;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+  }
+
+  .team span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1rem;
+  }
 }
 
 .team span:after {
