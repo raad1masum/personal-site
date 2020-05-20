@@ -143,6 +143,14 @@ object {
   right: 0;
 }
 
+.contact-link {
+  color: #00e5ee;
+}
+
+.contact-link:hover {
+  color: #00e5ee;
+}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
