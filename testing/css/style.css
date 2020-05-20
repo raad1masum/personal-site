@@ -19,7 +19,7 @@ nav {
 
 .navbar-dark .navbar-nav .nav-link {
   font-size: 2rem;
-  color: #00e5ee;
+  color: white;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -42,6 +42,7 @@ nav {
 
 .main-box {
     margin-top: 30vh;
+    height: 70vh;
 }
 
 .shadow {
