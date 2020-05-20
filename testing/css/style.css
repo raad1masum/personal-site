@@ -3,6 +3,7 @@ body {
   background-color: #23262f;
   font-family: "Share Tech Mono", monospace;
   color: #00e5ee;
+  scroll-behavior: smooth;
 }
 
 nav {
