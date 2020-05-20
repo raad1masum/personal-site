@@ -8,24 +8,22 @@ body {
 
 nav {
   margin: 0;
-  height: 80px;
+  height: 10vh;
   background-color: #23262f;
 }
 
 .navbar-brand {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 3rem;
   color: #00e5ee;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   font-size: 2rem;
-  font-weight: bold;
   color: #00e5ee;
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
 
 .parallax-image {
