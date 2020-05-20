@@ -91,6 +91,10 @@ object {
   .about {
     font-size: 24px !important;
   }
+
+  .projects-subtitle {
+    font-size: 20px !important;
+  }
 }
 
 .mb-0 {
