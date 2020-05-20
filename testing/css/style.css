@@ -95,6 +95,10 @@ object {
   .projects-subtitle {
     font-size: 20px !important;
   }
+
+  .contact {
+    font-size: 20px !important;
+  }
 }
 
 .mb-0 {
@@ -222,7 +226,7 @@ object {
 }
 
 .contact {
-  font-size: 3vw;
+  font-size: 2.5rem;
 }
 
 .contact-link {
