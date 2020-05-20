@@ -16,6 +16,12 @@ hr {
   background-color: #00e5ee;
 }
 
+object {
+  box-shadow: 5px 5px 18px #00e5ee !important;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
 .navbar-brand {
   font-size: 2rem;
   color: #00e5ee;
@@ -79,6 +85,13 @@ hr {
 
 .award-highlight {
   color: #00e5ee;
+}
+
+.project {
+  width: 22vw;
+  box-shadow: 5px 5px 18px #00e5ee !important;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .shadow {
