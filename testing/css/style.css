@@ -8,12 +8,12 @@ body {
 
 nav {
   margin: 0;
-  height: 10vh;
+  height: 5rem;
   background-color: #23262f;
 }
 
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #00e5ee;
 }
 
