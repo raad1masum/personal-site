@@ -22,6 +22,10 @@ object {
   margin-bottom: 15px;
 }
 
+.navbar-nav {
+  background-color: #23262f;
+}
+
 .navbar-brand {
   font-size: 2rem;
   color: #00e5ee;
@@ -103,7 +107,7 @@ object {
   background-color: #36393f94;
   color: white;
   border-radius: 10px;
-  padding: 30px 32px;
+  padding: 20px 25px;
 }
 
 .team:hover {
@@ -129,7 +133,7 @@ object {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -15px;
   transition: 0.5s;
   color: #00e5ee;
 }
