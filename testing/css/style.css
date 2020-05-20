@@ -60,6 +60,10 @@ hr {
   color: white;
 }
 
+.main-content {
+  margin-top: 50px;
+}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
