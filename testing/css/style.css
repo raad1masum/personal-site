@@ -87,6 +87,10 @@ object {
     height: 15px !important;
     width: 7px!important;
   }
+
+  .about {
+    font-size: 24px !important;
+  }
 }
 
 .mb-0 {
