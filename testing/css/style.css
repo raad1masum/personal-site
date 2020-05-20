@@ -133,7 +133,7 @@ object {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -15px;
+  right: -20px;
   transition: 0.5s;
   color: #00e5ee;
 }
@@ -198,12 +198,12 @@ object {
   animation-iteration-count: infinite;
 }
 h1.cursor::after {
-  height: 55px;
-  width: 25px;
+  height: 3vw;
+  width: 1.5vw;
 }
 p.cursor::after {
-  height: 35px;
-  width: 15px;
+  height: 2vw;
+  width: 0.8vw;
 }
 
 @keyframes blink {
