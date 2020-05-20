@@ -40,6 +40,10 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
+.main-box {
+    margin-top: 20rem;
+}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
