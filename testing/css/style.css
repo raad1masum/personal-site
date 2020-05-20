@@ -150,6 +150,9 @@ object {
 }
 
 @media screen and (max-width: 480px) {
+  .team-name {
+    width: 92%;
+  }
   .team {
     margin: 0 auto;
     background-color: #36393f94;
@@ -163,7 +166,7 @@ object {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-    width: 90%;
+    width: 92%;
     text-align: center;
     text-decoration: none;
     margin: 20px;
