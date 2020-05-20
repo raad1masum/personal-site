@@ -93,7 +93,7 @@ hr {
   content: "";
   display: inline-block;
   margin-left: 3px;
-  background-color: white;
+  background-color: #00e5ee;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
