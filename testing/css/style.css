@@ -94,6 +94,51 @@ object {
   margin: 20px;
 }
 
+.team {
+  margin: 0 auto;
+  background-color: #36393f94;
+  color: white;
+  border-radius: 10px;
+  padding: 30px 32px;
+}
+
+.team:hover {
+  border-color: rgba(255, 255, 255, 0.116);
+  color: #00e5ee;
+  box-shadow: 5px 5px 18px #00e5ee !important;
+}
+
+.team span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 50px;
+  width: 94%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.team span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #00e5ee;
+}
+
+.team:hover span {
+  padding-right: 25px;
+}
+
+.team:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
