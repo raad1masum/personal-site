@@ -121,7 +121,7 @@ object {
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  width: 89%;
+  width: 58.5vw;
   text-align: center;
   text-decoration: none;
   margin: 20px;
@@ -145,6 +145,10 @@ object {
 .team:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.contact {
+  font-size: 3vw;
 }
 
 .contact-link {
