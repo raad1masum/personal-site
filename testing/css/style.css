@@ -12,6 +12,10 @@ nav {
   background-color: #23262f;
 }
 
+hr {
+  background-color: #00e5ee;
+}
+
 .navbar-brand {
   font-size: 2rem;
   color: #00e5ee;
@@ -32,6 +36,16 @@ nav {
 .main-box {
   margin-top: 30vh;
   height: 70vh;
+}
+
+.box {
+  height: 100vh;
+  padding-top: 5rem;
+}
+
+.title {
+  font-size: 60px;
+  color: white;
 }
 
 .shadow {
