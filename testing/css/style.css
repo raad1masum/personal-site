@@ -33,6 +33,11 @@ hr {
   color: #00e5ee;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .main-box {
   margin-top: 30vh;
   height: 70vh;
