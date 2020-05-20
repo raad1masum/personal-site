@@ -133,12 +133,16 @@ object {
   box-shadow: 5px 5px 18px #00e5ee !important;
 }
 
+.team-name {
+  width: 91%;
+}
+
 .team span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  width: 90%;
+  width: 91%;
   text-align: center;
   text-decoration: none;
   margin: 20px;
