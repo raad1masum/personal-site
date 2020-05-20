@@ -149,9 +149,9 @@ object {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   .team-name {
-    width: 92%;
+    width: 88%;
   }
   .team {
     margin: 0 auto;
@@ -166,7 +166,7 @@ object {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-    width: 92%;
+    width: 88%;
     text-align: center;
     text-decoration: none;
     margin: 20px;
