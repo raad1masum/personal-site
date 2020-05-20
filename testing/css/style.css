@@ -77,6 +77,10 @@ hr {
   box-shadow: 5px 10px 20px #00e5ee !important;
 }
 
+.award-highlight {
+  color: #00e5ee;
+}
+
 .shadow {
   box-shadow: 0 0.5rem 1rem #00e6ee5d !important;
 }
