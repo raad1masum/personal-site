@@ -11,6 +11,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
     <link rel="icon" href="./img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
@@ -40,7 +41,10 @@
     <div style="margin-top: 5rem;" id="top"></div>
 
     <div class="container text-center align-middle main-box">
-        <h1>Hello, I'm Raadwan Masum.</h1>
+        <div class="output" id="output">
+            <h1 class="cursor"></h1>
+            <p></p>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
