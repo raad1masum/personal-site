@@ -190,12 +190,13 @@ object {
   .team-name {
     width: 88%;
   }
+  
   .team {
     margin: 0 auto;
     background-color: #36393f94;
     color: white;
     border-radius: 10px;
-    padding: 10px 15px;
+    margin-bottom: 20px;
   }
 
   .team span {
@@ -203,11 +204,10 @@ object {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-    width: 88%;
     text-align: center;
     text-decoration: none;
     margin: 20px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
