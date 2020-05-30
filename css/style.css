@@ -190,7 +190,7 @@ object {
   .team-name {
     width: 88%;
   }
-  
+
   .team {
     margin: 0 auto;
     background-color: #36393f94;
@@ -283,6 +283,20 @@ object {
   animation-name: blink;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
+}
+
+.rotate:hover {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 h1.cursor::after {
