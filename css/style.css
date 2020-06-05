@@ -26,6 +26,10 @@ object {
   background-color: #23262f;
 }
 
+.nav-shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
 .navbar-brand {
   font-size: 2rem;
   color: #00e5ee;

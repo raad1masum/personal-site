@@ -86,3 +86,12 @@ function typeWriter(id, ar) {
     }
   }
 };
+
+$((function() {
+    $(document).scroll((function() {
+        var n = $(".navbar");
+        n.toggleClass("nav-shadow", $(this).scrollTop() > n.height())
+    }
+    ))
+}
+));
