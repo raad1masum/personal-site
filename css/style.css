@@ -118,7 +118,7 @@ object {
   }
 
   .project-item {
-    height: 210px !important;
+    height: 220px !important;
   }
 
   .team-dnhscs {
@@ -171,6 +171,11 @@ object {
 
 .award-highlight {
   color: #00e5ee;
+}
+
+.card a:hover .card-header > h5 {
+  color: #00e5ee;
+  text-decoration: underline;
 }
 
 .project-container {
