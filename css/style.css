@@ -240,10 +240,6 @@ object {
 }
 
 @media screen and (max-width: 800px) {
-  .team-name {
-    width: 88%;
-  }
-
   .team {
     margin: 0 auto;
     background-color: #36393f94;
