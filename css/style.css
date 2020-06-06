@@ -113,6 +113,10 @@ object {
     font-size: 1.3rem !important;
   }
 
+  .contact-title {
+    margin-top: 50px;
+  }
+
   .contact {
     font-size: 20px !important;
   }
