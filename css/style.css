@@ -196,7 +196,8 @@ object {
 }
 
 .project-lang {
-  display: block;
+  display: inline-block;
+  overflow: visible;
 }
 
 .team-box {
