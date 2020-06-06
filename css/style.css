@@ -206,7 +206,7 @@ object {
 }
 
 .project-link:hover {
-  color: white;
+  color: #00e5ee;
   text-decoration: underline;
 }
 
