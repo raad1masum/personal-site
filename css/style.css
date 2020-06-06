@@ -27,7 +27,7 @@ object {
 }
 
 .nav-shadow {
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .navbar-brand {
@@ -156,11 +156,15 @@ object {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .project-item {
-
+  width: 520px;
+  height: 100px;
+  background-color: #31363f;
+  margin: 20px 0;
+  border-radius: 20px;
 }
 
 .project {
