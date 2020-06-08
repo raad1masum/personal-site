@@ -423,3 +423,15 @@ p.cursor::after {
   );
   border-radius: 10px;
 }
+
+::selection {
+  background: #00e5ee; /* WebKit/Blink Browsers */
+  text-shadow: #23262f 0 0 10px;
+  color: #23262f;
+}
+
+::-moz-selection {
+  background: #00e5ee; /* Gecko Browsers */
+  text-shadow: #23262f 0 0 10px;
+  color: #23262f;
+}
