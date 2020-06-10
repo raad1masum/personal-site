@@ -1,0 +1,7 @@
+html,
+body {
+  background-color: #23262f;
+  font-family: "Share Tech Mono", monospace;
+  color: white;
+  scroll-behavior: smooth;
+}
