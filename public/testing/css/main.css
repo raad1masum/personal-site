@@ -7,3 +7,23 @@ body {
     color: white;
     scroll-behavior: smooth;
 }
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+}
