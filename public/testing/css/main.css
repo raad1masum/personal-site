@@ -276,6 +276,10 @@ body {
     color: var(--blue);
 }
 
+::selection {
+    background-color: var(--foreground);
+}
+
 @media screen and (max-width: 800px) {
     .navbar-logo {
         display: none;
