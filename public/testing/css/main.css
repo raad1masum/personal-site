@@ -33,6 +33,7 @@ hr {
 }
 
 nav {
+    background-color: var(--background);
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,6 +43,10 @@ nav {
     float: right;
     display: inline-block;
     margin-right: 1rem;
+}
+
+.nav-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .navbar-logo {

@@ -104,5 +104,13 @@
                 } 
             });
         }
+        $((function() {
+            $(document).scroll((function() {
+                var t = $("nav");
+                t.toggleClass("nav-shadow", $(this).scrollTop() > t.height())
+            }
+            ))
+        }
+        ))
     </script>
 </html>
