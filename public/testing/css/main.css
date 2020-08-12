@@ -251,11 +251,24 @@ body {
 .home h1 {
     font-size: 5rem;
     margin-bottom: 0;
+    line-height: 1;
 }
 
 .home h2 {
     font-size: 2.5rem;
     margin-top: 0;
+}
+
+.home h2 span:nth-child(1) {
+    color: var(--red);
+}
+
+.home h2 span:nth-child(2) {
+    color: var(--green);
+}
+
+.home h2 span:nth-child(3) {
+    color: var(--blue);
 }
 
 @media screen and (max-width: 800px) {
