@@ -439,4 +439,16 @@ nav {
     .navbar-mobile {
         display: flex;
     }
+
+    .home {
+        padding-top: 2.5rem;
+    }
+
+    .home h1 {
+        font-size: 4rem;
+    }
+
+    .home h2 {
+        font-size: 2rem;
+    }
 }
