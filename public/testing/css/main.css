@@ -331,6 +331,10 @@ nav {
     vertical-align: center;
 }
 
+.social-icons a {
+    color: var(--background);
+}
+
 .social-icons svg {
     transition: .3s;
 }
