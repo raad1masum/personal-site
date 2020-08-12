@@ -27,6 +27,12 @@ hr {
     outline: none;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .navbar {
     float: right;
     display: inline-block;
