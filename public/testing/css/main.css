@@ -203,10 +203,10 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
-    -webkit-animation: gradientAnimation 15s ease infinite;
-    -moz-animation: gradientAnimation 15s ease infinite;
-    -o-animation: gradientAnimation 15s ease infinite;
-    animation: gradientAnimation 15s ease infinite;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
 }
 
 .gradient-animation {
@@ -246,6 +246,11 @@ body {
     max-width: 970px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.home {
+    padding-top: 4rem;
+    height: 74vh;
 }
 
 .home h1 {
