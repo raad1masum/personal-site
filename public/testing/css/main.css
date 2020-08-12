@@ -333,8 +333,35 @@ nav {
 
 .social-icons svg {
     display: inline;
-    color: var(--foreground);
     margin: auto 15px;
+}
+
+.social-icons svg:nth-child(1):hover path {
+    fill: var(--red);
+}
+
+.social-icons svg:nth-child(2):hover path {
+    fill: var(--orange);
+}
+
+.social-icons svg:nth-child(3):hover path {
+    fill: var(--yellow);
+}
+
+.social-icons svg:nth-child(4):hover path {
+    fill: var(--green);
+}
+
+.social-icons svg:nth-child(5):hover path {
+    fill: var(--blue);
+}
+
+.social-icons svg:nth-child(6):hover path {
+    fill: var(--purple);
+}
+
+.devpost-d {
+    fill: var(--background) !important;
 }
 
 .awards {
