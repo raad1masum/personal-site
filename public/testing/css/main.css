@@ -451,4 +451,8 @@ nav {
     .home h2 {
         font-size: 2rem;
     }
+
+    .accordion h1 {
+        font-size: 1.5rem;
+    }
 }
