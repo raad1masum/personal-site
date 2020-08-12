@@ -312,7 +312,7 @@ nav {
 
 .home h2 {
     font-size: 2.5rem;
-    margin-top: 0;
+    margin: 0;
 }
 
 .home h2 span:nth-child(1) {
@@ -325,6 +325,12 @@ nav {
 
 .home h2 span:nth-child(3) {
     color: var(--blue);
+}
+
+.social-icons svg {
+    display: inline;
+    color: var(--foreground);
+    margin: auto 15px;
 }
 
 .awards {
