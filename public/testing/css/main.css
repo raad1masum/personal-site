@@ -39,3 +39,15 @@ body {
 .navbar a {
     text-decoration: none;
 }
+
+.navbar ul li:nth-child(1) a {
+    color: var(--red);
+}
+
+.navbar ul li:nth-child(2) a {
+    color: var(--green);
+}
+
+.navbar ul li:nth-child(3) a {
+    color: var(--blue);
+}
