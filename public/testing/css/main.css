@@ -276,8 +276,14 @@ body {
     color: var(--blue);
 }
 
+.awards {
+    width: 100%;
+    text-align: center;
+}
+
 .awards h1 {
     margin: 0 auto;
+    font-size: 3rem;
 }
 
 ::selection {
