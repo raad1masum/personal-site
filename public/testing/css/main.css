@@ -129,13 +129,17 @@ body {
     bottom: 0;
     width: 100%;
     margin: 0 auto;
+    justify-content: space-around;
 }
 
 .navbar-mobile ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin: 1rem 0;
+    margin: auto;
 }
 
 .navbar-mobile li {
@@ -195,6 +199,6 @@ body {
     }
 
     .navbar-mobile {
-        display: block;
+        display: flex;
     }
 }
