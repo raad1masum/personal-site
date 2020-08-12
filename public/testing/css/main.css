@@ -124,6 +124,36 @@ body {
 
 .navbar-mobile {
     display: none;
+    overflow: hidden;
+    position: fixed;  
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar-mobile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.navbar-mobile li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    font-size: 2rem;
+}
+
+.navbar-mobile ul li:nth-child(1) a {
+    color: var(--red);
+}
+
+.navbar-mobile ul li:nth-child(2) a {
+    color: var(--green);
+}
+
+.navbar-mobile ul li:nth-child(3) a {
+    color: var(--blue);
 }
 
 .gradient-animation {
@@ -162,5 +192,9 @@ body {
 
     .navbar {
         display: none;
+    }
+
+    .navbar-mobile {
+        display: block;
     }
 }
