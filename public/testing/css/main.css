@@ -46,6 +46,17 @@ body {
     margin: 1.5rem 0.3rem;
 }
 
+.navbar-logo:hover p {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -77,12 +88,42 @@ body {
 
 .navbar ul li:nth-child(1) a:hover {
     text-decoration: underline;
+    transition: all 2s;
 }
 
-.navbar ul li:nth-child(2) a {
-    color: var(--green);
+.navbar ul li:nth-child(2) a:hover {
+    text-decoration: underline;
 }
 
-.navbar ul li:nth-child(3) a {
-    color: var(--blue);
+.navbar ul li:nth-child(3) a:hover {
+    text-decoration: underline;
+}
+
+.gradient-animation {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 15s ease infinite;
+    -moz-animation: gradientAnimation 15s ease infinite;
+    -o-animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
