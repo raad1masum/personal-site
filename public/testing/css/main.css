@@ -347,6 +347,11 @@ nav {
     font-family: 'Baloo Tamma 2', cursive;
 }
 
+.accordion h1 {
+    color: var(--foreground);
+    font-size: 2rem;
+}
+
 .active {
     background: var(--background-alternate) !important;
 }
