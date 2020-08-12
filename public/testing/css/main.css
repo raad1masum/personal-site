@@ -2,6 +2,7 @@
 
 :root {
     --background: #2b292e;
+    --background-alternate: #3d3b40;
     --foreground: #f8f8f2;
     --accent: #75715e;
     --red: #ff6188;
@@ -298,33 +299,41 @@ nav {
 }
 
 .awards h1 {
+    color: var(--red);
     margin: 0 auto;
     font-size: 3rem;
 }
 
+.awards hr {
+    margin-bottom: 2rem;
+}
+
 .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
+    margin: auto;
+    background-color: var(--background-alternate);
+    color: var(--foreground);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.5rem;
+    transition: 0.4s;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+    text-decoration: underline;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
 .panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Baloo Tamma 2', cursive;
 }
 
 ::selection {
@@ -332,19 +341,19 @@ nav {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #888;
+    background: #888;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #555;
+    background: #555;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
 }
 
 @media screen and (max-width: 800px) {
