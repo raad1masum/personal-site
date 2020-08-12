@@ -327,6 +327,10 @@ nav {
     color: var(--blue);
 }
 
+.social-icons {
+    vertical-align: center;
+}
+
 .social-icons svg {
     display: inline;
     color: var(--foreground);
