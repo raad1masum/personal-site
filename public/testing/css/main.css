@@ -22,12 +22,24 @@ body {
 
 .navbar {
     float: right;
+    display: inline;
+}
+
+.navbar-logo {
+    display: inline;
+}
+
+.navbar-logo img {
+    width: 4em;
+    height: 4em;
+    margin: 0.5rem;
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin: 1rem 0;
 }
 
 .navbar li {
