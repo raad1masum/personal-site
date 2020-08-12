@@ -228,6 +228,12 @@ body {
     100%{background-position:0% 50%}
 }
 
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 @media screen and (max-width: 800px) {
     .navbar-logo {
         display: none;
