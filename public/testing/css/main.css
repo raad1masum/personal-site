@@ -156,6 +156,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    .navbar-logo {
+        display: none;
+    }
+
     .navbar {
         display: none;
     }
