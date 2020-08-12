@@ -347,17 +347,30 @@ nav {
     font-family: 'Baloo Tamma 2', cursive;
 }
 
-.active, .accordion:hover {
-    text-decoration: underline;
-    font-family: 'Baloo Tamma 2', cursive;
+.active {
+    background: var(--background-alternate) !important;
+}
+
+.active h1 {
     background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
-    -webkit-animation: gradientAnimation 5s ease infinite;
-    -moz-animation: gradientAnimation 5s ease infinite;
-    -o-animation: gradientAnimation 5s ease infinite;
-    animation: gradientAnimation 5s ease infinite;
+    -webkit-animation: gradientAnimation 15s ease infinite;
+    -moz-animation: gradientAnimation 15s ease infinite;
+    -o-animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.active, .accordion:hover > h1 {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 15s ease infinite;
+    -moz-animation: gradientAnimation 15s ease infinite;
+    -o-animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
 }
 
 .panel {
