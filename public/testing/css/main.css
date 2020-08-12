@@ -21,6 +21,12 @@ body {
     scroll-behavior: smooth;
 }
 
+hr {
+    height: 3px;
+    border: none;
+    outline: none;
+}
+
 .navbar {
     float: right;
     display: inline-block;
