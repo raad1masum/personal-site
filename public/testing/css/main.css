@@ -22,17 +22,26 @@ body {
 
 .navbar {
     float: right;
-    display: inline;
+    display: inline-block;
 }
 
 .navbar-logo {
-    display: inline;
+    display: inline-block;
 }
 
 .navbar-logo img {
+    display: inline;
     width: 4em;
     height: 4em;
-    margin: 0.5rem;
+    margin: 1.5rem 0.5rem;
+    float: left;
+}
+
+.navbar-logo p {
+    display: inline;
+    float: right;
+    color: var(--foreground);
+    font-size: 2rem;
 }
 
 .navbar ul {
@@ -43,7 +52,7 @@ body {
 }
 
 .navbar li {
-    display: inline;
+    display: inline-block;
     margin: 1rem;
     font-size: 2rem;
 }
