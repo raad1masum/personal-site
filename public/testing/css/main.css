@@ -240,6 +240,25 @@ nav {
     animation: gradientAnimation 15s ease infinite;
 }
 
+.gradient-text-animation-hover:hover {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 15s ease infinite;
+    -moz-animation: gradientAnimation 15s ease infinite;
+    -o-animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+.gradient-animation-hover:hover {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 15s ease infinite;
+    -moz-animation: gradientAnimation 15s ease infinite;
+    -o-animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
+}
 @-webkit-keyframes gradientAnimation {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
