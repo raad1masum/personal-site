@@ -14,6 +14,7 @@
 
 html,
 body {
+    margin: 0;
     background-color: #2b292e;
     font-family: 'Baloo Tamma 2', cursive;
     color: white;
@@ -42,6 +43,7 @@ body {
     float: right;
     color: var(--foreground);
     font-size: 2rem;
+    margin: 1.5rem 0.3rem;
 }
 
 .navbar ul {
@@ -53,7 +55,7 @@ body {
 
 .navbar li {
     display: inline-block;
-    margin: 1rem;
+    margin: 0.5rem 1rem;
     font-size: 2rem;
 }
 
@@ -63,6 +65,18 @@ body {
 
 .navbar ul li:nth-child(1) a {
     color: var(--red);
+}
+
+.navbar ul li:nth-child(2) a {
+    color: var(--green);
+}
+
+.navbar ul li:nth-child(3) a {
+    color: var(--blue);
+}
+
+.navbar ul li:nth-child(1) a:hover {
+    text-decoration: underline;
 }
 
 .navbar ul li:nth-child(2) a {
