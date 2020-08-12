@@ -331,6 +331,11 @@ nav {
     vertical-align: center;
 }
 
+.social-icons svg:hover {
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
 .social-icons svg {
     display: inline;
     margin: auto 15px;
@@ -356,7 +361,7 @@ nav {
     fill: var(--blue);
 }
 
-.social-icons svg:nth-child(6):hover path {
+.social-icons svg:nth-child(6):hover path, circle {
     fill: var(--purple);
 }
 
