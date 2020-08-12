@@ -24,10 +24,12 @@ body {
 .navbar {
     float: right;
     display: inline-block;
+    margin-right: 1rem;
 }
 
 .navbar-logo {
     display: inline-block;
+    margin-left: 1rem;
 }
 
 .navbar-logo img {
