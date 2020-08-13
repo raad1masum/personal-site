@@ -303,7 +303,7 @@ nav {
 
 .home {
     padding-top: 11rem;
-    height: 81vh;
+    height: 72vh;
 }
 
 .home h1 {
@@ -383,11 +383,34 @@ nav {
     fill: var(--background) !important;
 }
 
-.down-arrow svg {
+.down-arrow {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+
+.down-arrow img {
+    width: 2rem;
+    margin-bottom: 2rem;
     transition: 0.5s all cubic-bezier(0.1, 0.5, 0.7, 1.4);
     animation-name: arrow;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(0px);
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .awards {
