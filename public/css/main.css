@@ -605,6 +605,20 @@ nav {
     margin-top: 0.6rem;
 }
 
+.project-item img:hover {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .teams {
     width: 100%;
     text-align: center;
