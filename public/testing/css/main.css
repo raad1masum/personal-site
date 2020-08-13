@@ -39,6 +39,7 @@ hr {
 }
 
 nav {
+    z-index: 9999999999999999999999999999999999999999999999999999999;
     background-color: var(--background);
     position: fixed;
     top: 0;
