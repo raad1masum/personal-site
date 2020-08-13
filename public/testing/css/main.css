@@ -644,6 +644,17 @@ nav {
     font-weight: bold;
 }
 
+.teams a button:hover i {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+
 .underline {
     text-decoration: underline !important;
 }
