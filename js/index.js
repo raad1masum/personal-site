@@ -12,14 +12,3 @@ for (i = 0; i < acc.length; i++) {
         } 
     });
 }
-$((function() {
-    $(document).scroll((function() {
-        var t = $("nav");
-        var tm = $(".navbar-mobile")
-        t.toggleClass("nav-shadow", $(this).scrollTop() > t.height())
-        tm.toggleClass("nav-mobile-shadow", $(this).scrollTop() > t.height())
-    }
-    ))
-}
-))
-
