@@ -22,6 +22,12 @@ body {
     scroll-behavior: smooth;
 }
 
+footer {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
 h1, h2 {
     font-weight: normal;
 }
@@ -33,6 +39,7 @@ hr {
 }
 
 nav {
+    z-index: 9999999999999999999999999999999999999999999999999999999;
     background-color: var(--background);
     position: fixed;
     top: 0;
@@ -47,15 +54,11 @@ nav {
 }
 
 .nav-shadow {
-    -webkit-box-shadow: 0px 1px 35px -13px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 1px 35px -13px rgba(255,255,255,1);
-    box-shadow: 0px 1px 35px -13px rgba(255,255,255,1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .nav-mobile-shadow {
-    -webkit-box-shadow: 0px 1px 35px -13px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 1px 35px -13px rgba(255,255,255,1);
-    box-shadow: 0px 1px 35px -13px rgba(255,255,255,1);
+    box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .navbar-logo {
@@ -301,7 +304,7 @@ nav {
 
 .home {
     padding-top: 11rem;
-    height: 81vh;
+    height: 72vh;
 }
 
 .home h1 {
@@ -349,6 +352,10 @@ nav {
     margin: auto 15px;
 }
 
+.social-icons a:nth-child(1) svg {
+    margin-left: 0;
+}
+
 .social-icons a:nth-child(1) svg:hover path {
     fill: var(--red);
 }
@@ -375,6 +382,36 @@ nav {
 
 .devpost-d {
     fill: var(--background) !important;
+}
+
+.down-arrow {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+
+.down-arrow img {
+    width: 3rem;
+    margin-bottom: 2rem;
+    transition: 0.5s all cubic-bezier(0.1, 0.5, 0.7, 1.4);
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(0px);
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .awards {
@@ -429,10 +466,10 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
-    -webkit-animation: gradientAnimation 15s ease infinite;
-    -moz-animation: gradientAnimation 15s ease infinite;
-    -o-animation: gradientAnimation 15s ease infinite;
-    animation: gradientAnimation 15s ease infinite;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
 }
 
 .active, .accordion:hover > h1 {
@@ -452,6 +489,30 @@ nav {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     font-family: 'Baloo Tamma 2', cursive;
+    text-align: left;
+}
+
+.panel p {
+    font-size: 1.2rem;
+}
+
+.panel p span {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+.no-underline {
+    text-decoration: none !important;
 }
 
 ::selection {
@@ -489,7 +550,7 @@ nav {
     }
 
     .nav-shadow {
-        box-shadow: none;
+        box-shadow: none !important;
     }
 
     .navbar-mobile {
