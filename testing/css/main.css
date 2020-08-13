@@ -331,6 +331,22 @@ nav {
     color: var(--blue);
 }
 
+.home h3 {
+    display: none;
+}
+
+.home h3 span:nth-child(1) {
+    color: var(--red);
+}
+
+.home h3 span:nth-child(3) {
+    color: var(--green);
+}
+
+.home h3 span:nth-child(5) {
+    color: var(--blue);
+}
+
 .social-icons {
     vertical-align: center;
 }
@@ -362,22 +378,14 @@ nav {
 }
 
 .social-icons a:nth-child(2) svg:hover path {
-    fill: var(--orange);
-}
-
-.social-icons a:nth-child(3) svg:hover path {
-    fill: var(--yellow);
-}
-
-.social-icons a:nth-child(4) svg:hover path {
     fill: var(--green);
 }
 
-.social-icons a:nth-child(5) svg:hover path {
+.social-icons a:nth-child(3) svg:hover path {
     fill: var(--blue);
 }
 
-.social-icons a:nth-child(6) svg:hover path, circle {
+.social-icons a:nth-child(4) svg:hover path {
     fill: var(--purple);
 }
 
@@ -401,18 +409,18 @@ nav {
 }
 
 @keyframes arrow {
-  0% {
-    transform: translateY(-10px);
-  }
-  70% {
-    transform: translateY(0px);
-  }
-  80% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
+    0% {
+        transform: translateY(-10px);
+    }
+    70% {
+        transform: translateY(0px);
+    }
+    80% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 .awards {
@@ -616,7 +624,8 @@ nav {
     }
 
     .home {
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
+        text-align: center;
     }
 
     .home h1 {
@@ -624,10 +633,35 @@ nav {
     }
 
     .home h2 {
-        font-size: 2rem;
+        display: none;
+    }
+
+    .home h3 {
+        display: block;
+        font-size: 1.5rem;
     }
 
     .accordion h1 {
         font-size: 1.5rem;
+    }
+
+    .social-icons svg {
+        margin: auto 10px;
+    }
+
+    .social-icons a:nth-child(1) svg {
+        width: 30px !important;
+    }
+
+    .social-icons a:nth-child(2) svg {
+        width: 27px !important;
+    }
+
+    .social-icons a:nth-child(3) svg {
+        width: 27px !important;
+    }
+
+    .social-icons a:nth-child(4) svg {
+        width: 30px !important;
     }
 }
