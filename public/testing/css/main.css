@@ -455,6 +455,10 @@ nav {
     text-align: left;
 }
 
+.panel p {
+    font-size: 1.2rem;
+}
+
 .panel p span {
     background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
     -webkit-background-clip: text;
