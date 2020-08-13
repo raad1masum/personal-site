@@ -738,4 +738,8 @@ nav {
     .projects-sub {
         font-size: 1.2rem;
     }
+
+    .teams a button span {
+        font-size: 1.5rem;
+    }
 }
