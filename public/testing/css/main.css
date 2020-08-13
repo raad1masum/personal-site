@@ -531,12 +531,13 @@ nav {
     background-color: var(--background-alternate);
     width: 420px;
     margin: 1rem 0;
-    padding: 0.3rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     border-radius: 20px;
     text-align: left;
 }
 
 .project-item h1 {
+    display: inline-block;
     color: white;
     font-size: 2rem;
     margin-bottom: 0;
@@ -555,6 +556,13 @@ nav {
 
 .project-item p {
     margin: 0;
+}
+
+.project-item img {
+    display: inline-block;
+    float: right;
+    width: 2rem;
+    margin-top: 0.6rem;
 }
 
 .underline {
