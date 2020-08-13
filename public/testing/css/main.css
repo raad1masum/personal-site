@@ -331,6 +331,22 @@ nav {
     color: var(--blue);
 }
 
+.home h3 {
+    display: none;
+}
+
+.home h3 span:nth-child(1) {
+    color: var(--red);
+}
+
+.home h3 span:nth-child(3) {
+    color: var(--green);
+}
+
+.home h3 span:nth-child(5) {
+    color: var(--blue);
+}
+
 .social-icons {
     vertical-align: center;
 }
@@ -616,7 +632,7 @@ nav {
     }
 
     .home {
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
         text-align: center;
     }
 
@@ -625,9 +641,12 @@ nav {
     }
 
     .home h2 {
-        font-size: 2rem;
-        line-height: 1;
-        margin: 1rem 0 1.5rem 0;
+        display: none;
+    }
+
+    .home h3 {
+        display: block;
+        font-size: 1.5rem;
     }
 
     .accordion h1 {
