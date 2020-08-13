@@ -378,22 +378,14 @@ nav {
 }
 
 .social-icons a:nth-child(2) svg:hover path {
-    fill: var(--orange);
-}
-
-.social-icons a:nth-child(3) svg:hover path {
-    fill: var(--yellow);
-}
-
-.social-icons a:nth-child(4) svg:hover path {
     fill: var(--green);
 }
 
-.social-icons a:nth-child(5) svg:hover path {
+.social-icons a:nth-child(3) svg:hover path {
     fill: var(--blue);
 }
 
-.social-icons a:nth-child(6) svg:hover path, circle {
+.social-icons a:nth-child(4) svg:hover path {
     fill: var(--purple);
 }
 
@@ -670,14 +662,6 @@ nav {
     }
 
     .social-icons a:nth-child(4) svg {
-        width: 30px !important;
-    }
-
-    .social-icons a:nth-child(5) svg {
-        width: 30px !important;
-    }
-
-    .social-icons a:nth-child(6) svg {
         width: 30px !important;
     }
 }
