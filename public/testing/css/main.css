@@ -531,8 +531,25 @@ nav {
     background-color: var(--background-alternate);
     width: 420px;
     margin: 1rem 0;
-    padding: 1rem;
+    padding: 0.3rem 1.5rem;
     border-radius: 20px;
+}
+
+.project-item h1 {
+    color: white;
+    font-size: 2rem;
+    float: left;
+}
+
+.project-item h1:hover {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
 }
 
 .underline {
@@ -556,11 +573,11 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #555;
+    background: var(--background-alternate);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: var(--background-alternate);
 }
 
 @media screen and (max-width: 800px) {
