@@ -470,6 +470,10 @@ nav {
     text-decoration: underline !important;
 }
 
+.no-underline {
+    text-decoration: none !important;
+}
+
 ::selection {
     background-color: var(--foreground);
 }
