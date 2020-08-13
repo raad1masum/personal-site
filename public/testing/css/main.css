@@ -83,7 +83,7 @@ nav {
 }
 
 .navbar-logo:hover p {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -124,7 +124,7 @@ nav {
 
 .navbar ul li:nth-child(1) a:hover {
     text-decoration: underline;
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -136,7 +136,7 @@ nav {
 
 .navbar ul li:nth-child(2) a:hover {
     text-decoration: underline;
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -148,7 +148,7 @@ nav {
 
 .navbar ul li:nth-child(3) a:hover {
     text-decoration: underline;
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -199,7 +199,7 @@ nav {
 
 .navbar-mobile ul li:nth-child(1) a:hover {
     text-decoration: underline;
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -211,7 +211,7 @@ nav {
 
 .navbar-mobile ul li:nth-child(2) a:hover {
     text-decoration: underline;
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -223,7 +223,7 @@ nav {
 
 .navbar-mobile ul li:nth-child(3) a:hover {
     text-decoration: underline;
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -234,7 +234,7 @@ nav {
 }
 
 .gradient-text-animation {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -245,7 +245,7 @@ nav {
 }
 
 .gradient-animation {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     background-size: 1200% 1200%;
     -webkit-animation: gradientAnimation 5s ease infinite;
     -moz-animation: gradientAnimation 5s ease infinite;
@@ -254,7 +254,7 @@ nav {
 }
 
 .gradient-text-animation-hover:hover {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -265,7 +265,7 @@ nav {
 }
 
 .gradient-animation-hover:hover {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     background-size: 1200% 1200%;
     -webkit-animation: gradientAnimation 5s ease infinite;
     -moz-animation: gradientAnimation 5s ease infinite;
@@ -462,7 +462,7 @@ nav {
 }
 
 .active h1 {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -473,7 +473,7 @@ nav {
 }
 
 .active, .accordion:hover > h1 {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
@@ -497,7 +497,7 @@ nav {
 }
 
 .panel p span {
-    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #a9dc76, #78dce8, #ab9df2);
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 1200% 1200%;
