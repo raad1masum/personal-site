@@ -682,4 +682,8 @@ nav {
     .social-icons a:nth-child(4) svg {
         width: 30px !important;
     }
+
+    .projects-sub {
+        font-size: 1.2rem;
+    }
 }
