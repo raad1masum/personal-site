@@ -528,6 +528,24 @@ nav {
     font-size: 3rem;
 }
 
+.projects-sub {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.projects-sub a {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+    text-decoration: none;
+}
+
 .project-container {
     margin: 0 auto;
     display: flex;
@@ -571,6 +589,59 @@ nav {
     float: right;
     width: 2rem;
     margin-top: 0.6rem;
+}
+
+.teams {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.teams h1 {
+    color: var(--blue);
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.teams p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.teams a button {
+    width: 100%;
+    background-color: var(--background-alternate);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 2rem 0;
+    margin: 1rem auto;
+    border-radius: 20px;
+}
+
+.teams a button span {
+    font-size: 2rem;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.teams a button:hover {
+    cursor: pointer;
+}
+
+.teams a button:hover span {
+    background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 1200% 1200%;
+    -webkit-animation: gradientAnimation 5s ease infinite;
+    -moz-animation: gradientAnimation 5s ease infinite;
+    -o-animation: gradientAnimation 5s ease infinite;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+.teams a button:hover span {
+    font-weight: bold;
 }
 
 .underline {
@@ -663,5 +734,13 @@ nav {
 
     .social-icons a:nth-child(4) svg {
         width: 30px !important;
+    }
+
+    .projects-sub {
+        font-size: 1.2rem;
+    }
+
+    .teams a button span {
+        font-size: 1.5rem;
     }
 }
