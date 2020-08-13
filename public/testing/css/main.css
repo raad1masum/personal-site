@@ -591,6 +591,23 @@ nav {
     margin-top: 0.6rem;
 }
 
+.teams {
+    width: 100%;
+    text-align: center;
+}
+
+.teams h1 {
+    color: var(--blue);
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.teams p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
 .underline {
     text-decoration: underline !important;
 }
