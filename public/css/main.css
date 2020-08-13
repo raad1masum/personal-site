@@ -75,6 +75,20 @@ nav {
     float: left;
 }
 
+.navbar-logo:hover img {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .navbar-logo p {
     display: inline;
     float: right;
