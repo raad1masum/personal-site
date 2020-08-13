@@ -318,8 +318,10 @@ nav {
 }
 
 .home {
+    margin: 0 auto;;
     padding-top: 11rem;
     height: 72vh;
+    width: 90%;
 }
 
 .home h1 {
