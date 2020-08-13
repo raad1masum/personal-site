@@ -390,7 +390,7 @@ nav {
 }
 
 .down-arrow img {
-    width: 2rem;
+    width: 3rem;
     margin-bottom: 2rem;
     transition: 0.5s all cubic-bezier(0.1, 0.5, 0.7, 1.4);
     animation-name: arrow;
