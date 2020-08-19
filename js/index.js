@@ -30,3 +30,6 @@ document.onkeydown = function(e) {
      return false;
   }
 }
+
+console.log("woah how did you get here")
+console.log("nice job human")
