@@ -265,3 +265,5 @@ Disallow: /gp/aw/shoppingAids/
 
 User-agent: EtaoSpider
 Disallow: /
+
+flag{vAn@d1um_l0l_83849}
