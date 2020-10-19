@@ -40,6 +40,11 @@ hr {
   outline: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 nav {
   z-index: 9999999999999999999999999999999999999999999999999999999;
   background-color: var(--background);
