@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
 
 :root {
-  --background: #2b292e;
-  --background-alternate: #3d3b40;
-  --background-dark: #211f22;
+  --background: #000814;
+  --background-alternate: #0b1625;
+  --background-dark: #09111D;
   --foreground: #f8f8f2;
   --accent: #75715e;
   --red: #ff6188;
@@ -17,7 +17,7 @@
 html,
 body {
   margin: 0;
-  background-color: #2b292e;
+  background-color: #000814;
   font-family: "Baloo Tamma 2", cursive;
   color: white;
   scroll-behavior: smooth;
