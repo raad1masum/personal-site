@@ -335,12 +335,12 @@ nav {
 .gradient-animation {
   background: linear-gradient(
     270deg,
-    #ff6188,
-    #fc9867,
-    #ffd866,
-    #00d787,
-    #78dce8,
-    #ab9df2
+  #fd3c63,
+  #ff7270,
+  #eA5dad,
+  #9867f0,
+  #3Bf0e4,
+  #3fc74c
   );
   background-size: 1200% 1200%;
   -webkit-animation: gradientAnimation 5s ease infinite;
@@ -352,12 +352,12 @@ nav {
 .gradient-text-animation-hover:hover {
   background: linear-gradient(
     270deg,
-    #ff6188,
-    #fc9867,
-    #ffd866,
-    #00d787,
-    #78dce8,
-    #ab9df2
+  #fd3c63,
+  #ff7270,
+  #eA5dad,
+  #9867f0,
+  #3Bf0e4,
+  #3fc74c
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -372,12 +372,12 @@ nav {
 .gradient-animation-hover:hover {
   background: linear-gradient(
     270deg,
-    #ff6188,
-    #fc9867,
-    #ffd866,
-    #00d787,
-    #78dce8,
-    #ab9df2
+  #fd3c63,
+  #ff7270,
+  #eA5dad,
+  #9867f0,
+  #3Bf0e4,
+  #3fc74c
   );
   background-size: 1200% 1200%;
   -webkit-animation: gradientAnimation 5s ease infinite;
