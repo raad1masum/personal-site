@@ -880,7 +880,7 @@ nav {
 }
 
 ::selection {
-  background-color: var(--foreground);
+  background-color: var(--purple);
 }
 
 ::-webkit-scrollbar {
