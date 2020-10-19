@@ -888,7 +888,7 @@ nav {
 }
 
 ::-webkit-scrollbar-track {
-  background: #888;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
