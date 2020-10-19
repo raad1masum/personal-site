@@ -749,7 +749,7 @@ nav {
   margin-bottom: 0;
 }
 
-.project-item h1:hover {
+.project-item:hover > h1 {
   background: linear-gradient(
     270deg,
   #fd3c63,
