@@ -319,18 +319,18 @@ nav {
 
 .gradient-text-animation {
   background: linear-gradient(
-    270deg,
-  #fd3c63,
-  #ff7270,
-  #eA5dad,
-  #9867f0,
-  #3Bf0e4,
-  #3fc74c
+    90deg,
+  var(--red),
+  var(--orange),
+  var(--yellow),
+  var(--green),
+  var(--blue),
+  var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
