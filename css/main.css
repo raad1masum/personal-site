@@ -212,67 +212,25 @@ nav {
   color: var(--blue);
 }
 
-.navbar-mobile ul li:nth-child(1) a:hover {
+.navbar-mobile ul li a:hover {
   text-decoration: underline;
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
-}
-
-.navbar-mobile ul li:nth-child(2) a:hover {
-  text-decoration: underline;
-  background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
-}
-
-.navbar-mobile ul li:nth-child(3) a:hover {
-  text-decoration: underline;
-  background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
+  background-size: 300% 100%;
+  -webkit-animation: gradientAnimation 3s ease infinite;
+  -moz-animation: gradientAnimation 3s ease infinite;
+  -o-animation: gradientAnimation 3s ease infinite;
+  animation: gradientAnimation 3s ease infinite;
 }
 
 .gradient-text-animation {
