@@ -254,7 +254,7 @@ nav {
 }
 
 .gradient-animation {
- background: linear-gradient(
+  background: linear-gradient(
     90deg,
     var(--red),
     var(--orange),
@@ -291,7 +291,7 @@ nav {
 }
 
 .gradient-animation-hover:hover {
- background: linear-gradient(
+  background: linear-gradient(
     90deg,
     var(--red),
     var(--orange),
