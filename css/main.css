@@ -532,18 +532,18 @@ nav {
 
 .active h1 {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
@@ -553,22 +553,22 @@ nav {
 .active,
 .accordion:hover > h1 {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
-  -webkit-animation: gradientAnimation 15s ease infinite;
-  -moz-animation: gradientAnimation 15s ease infinite;
-  -o-animation: gradientAnimation 15s ease infinite;
-  animation: gradientAnimation 15s ease infinite;
+  background-size: 300% 100%;
+  -webkit-animation: gradientAnimation 5s ease infinite;
+  -moz-animation: gradientAnimation 5s ease infinite;
+  -o-animation: gradientAnimation 5s ease infinite;
+  animation: gradientAnimation 5s ease infinite;
 }
 
 .panel {
@@ -586,18 +586,18 @@ nav {
 
 .panel p span {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
@@ -624,18 +624,18 @@ nav {
 
 .projects-sub a {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
@@ -668,18 +668,18 @@ nav {
 
 .project-item:hover > h1 {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
@@ -751,18 +751,18 @@ nav {
 
 .teams a button:hover span {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
@@ -775,18 +775,18 @@ nav {
 
 .teams a button:hover i {
   background: linear-gradient(
-    270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    90deg,
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 1200% 1200%;
+  background-size: 300% 100%;
   -webkit-animation: gradientAnimation 5s ease infinite;
   -moz-animation: gradientAnimation 5s ease infinite;
   -o-animation: gradientAnimation 5s ease infinite;
