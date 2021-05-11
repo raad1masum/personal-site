@@ -607,6 +607,10 @@ nav {
 }
 
 .projects-sub a {
+  text-decoration: underline;
+}
+
+.projects-sub a:hover {
   background: linear-gradient(
     90deg,
     var(--red),
