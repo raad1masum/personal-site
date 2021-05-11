@@ -585,23 +585,7 @@ nav {
 }
 
 .panel p span {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
+  color: var(--yellow);
 }
 
 .projects {
