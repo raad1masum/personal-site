@@ -647,14 +647,14 @@ nav {
   text-align: left;
 }
 
-.project-item h1 {
+.project-item a h1 {
   display: inline-block;
   color: white;
   font-size: 2rem;
   margin-bottom: 0;
 }
 
-.project-item:hover > h1 {
+.project-item:hover > a h1 {
   background: linear-gradient(
     90deg,
     var(--red),
