@@ -641,7 +641,7 @@ nav {
 }
 
 ::selection {
-  background-color: var(--purple);
+  background-color: var(--red);
 }
 
 ::-webkit-scrollbar {
