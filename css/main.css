@@ -479,7 +479,7 @@ nav {
 
 .active,
 .accordion:hover > h1 {
-  color: var(--blue);
+  color: var(--red);
   transition: 0.3s;
 }
 
@@ -554,7 +554,7 @@ nav {
 }
 
 .project-item:hover > a h1 {
-  color: var(--blue);
+  color: var(--purple);
   transition: 0.3s;
 }
 
@@ -627,7 +627,7 @@ nav {
 }
 
 .teams a button:hover span {
-  color: var(--blue);
+  color: var(--yellow);
   font-weight: 500;
   transition: 0.3s;
 }
