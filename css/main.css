@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
-  --background: #0B0C10;
-  --background-alternate: #34363D;
+  --background: #0b0c10;
+  --background-alternate: #34363d;
   --background-dark: #09111d;
   --foreground: #ffffff;
-  --accent: #AFAFAF;
-  --red: #FF006B;
-  --orange: #FF9900;
-  --yellow: #F7F700;
-  --green: #00FF1B;
-  --blue: #64F9EE;
-  --purple: #D489FF;
+  --accent: #afafaf;
+  --red: #ff006b;
+  --orange: #ff9900;
+  --yellow: #f7f700;
+  --green: #00ff1b;
+  --blue: #64f9ee;
+  --purple: #d489ff;
 }
 
 html,
 body {
   margin: 0;
   background-color: var(--background);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   scroll-behavior: smooth;
 }
@@ -126,12 +126,28 @@ nav {
   text-decoration: none;
 }
 
-.navbar ul li a {
+.navlink {
+  position: relative;
   color: var(--foreground);
 }
 
-.navbar ul li a:hover {
+.navlink:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: var(--blue);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navlink:hover:before {
   color: var(--blue);
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 .navbar-mobile {
@@ -445,7 +461,7 @@ nav {
   outline: none;
   font-size: 1.5rem;
   transition: 0.4s;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .accordion h1 {
@@ -471,7 +487,7 @@ nav {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
 }
 
@@ -596,7 +612,7 @@ nav {
 
 .teams a button span {
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .teams a button:hover {
