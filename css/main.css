@@ -124,7 +124,7 @@ nav {
 
 .navlink {
   position: relative;
-  color: var(--foreground);
+  color: var(--accent);
 }
 
 .navlink:before {
@@ -191,8 +191,8 @@ nav {
 
 .home {
   margin: 0 auto;
-  padding-top: 11rem;
-  height: 72vh;
+  padding-top: 15rem;
+  height: 65vh;
   width: 90%;
 }
 
@@ -210,7 +210,7 @@ nav {
 .home h2 {
   font-size: 2.5rem;
   margin: 0;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 .home h2 span {
@@ -227,7 +227,7 @@ nav {
 
 .social-icons {
   vertical-align: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .social-icons a {
