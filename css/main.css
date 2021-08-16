@@ -161,37 +161,12 @@ nav {
   font-size: 2rem;
 }
 
-.navbar-mobile ul li:nth-child(1) a {
-  color: var(--red);
-}
-
-.navbar-mobile ul li:nth-child(2) a {
-  color: var(--green);
-}
-
-.navbar-mobile ul li:nth-child(3) a {
-  color: var(--blue);
+.navbar-mobile ul li a {
+  color: var(--foreground);
 }
 
 .navbar-mobile ul li a:hover {
-  text-decoration: underline;
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 3s ease infinite;
-  -moz-animation: gradientAnimation 3s ease infinite;
-  -o-animation: gradientAnimation 3s ease infinite;
-  animation: gradientAnimation 3s ease infinite;
+  color: var(--blue);
 }
 
 .gradient-text-animation {
@@ -354,16 +329,8 @@ nav {
   display: none;
 }
 
-.home h3 span:nth-child(1) {
-  color: var(--red);
-}
-
-.home h3 span:nth-child(3) {
-  color: var(--green);
-}
-
-.home h3 span:nth-child(5) {
-  color: var(--blue);
+.home h3 span {
+  color: var(--accent);
 }
 
 .social-icons {
@@ -641,26 +608,6 @@ nav {
   font-weight: 500;
 }
 
-.teams a button:hover i {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
-}
-
 .underline {
   text-decoration: underline !important;
 }
@@ -754,7 +701,7 @@ nav {
   }
 
   .projects-sub {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   .teams a button span {
