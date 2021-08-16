@@ -505,7 +505,7 @@ nav {
 }
 
 .teams a button:hover span {
-  color: var(--yellow);
+  color: var(--green);
   font-weight: 500;
   transition: 0.3s;
 }
