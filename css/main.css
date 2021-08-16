@@ -38,6 +38,7 @@ hr {
   height: 2px;
   border: none;
   outline: none;
+  background-color: var(--accent);
 }
 
 a {
@@ -141,37 +142,12 @@ nav {
   text-decoration: none;
 }
 
-.navbar ul li:nth-child(1) a {
-  color: var(--red);
-}
-
-.navbar ul li:nth-child(2) a {
-  color: var(--green);
-}
-
-.navbar ul li:nth-child(3) a {
-  color: var(--blue);
+.navbar ul li a {
+  color: var(--foreground);
 }
 
 .navbar ul li a:hover {
-  text-decoration: underline;
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 3s ease infinite;
-  -moz-animation: gradientAnimation 3s ease infinite;
-  -o-animation: gradientAnimation 3s ease infinite;
-  animation: gradientAnimation 3s ease infinite;
+  /* TODO */
 }
 
 .navbar-mobile {
@@ -375,22 +351,19 @@ nav {
   line-height: 1;
 }
 
+.home h1 span {
+  color: var(--blue);
+  font-weight: 500;
+}
+
 .home h2 {
   font-size: 2.5rem;
   margin: 0;
   margin-top: 0.5rem;
 }
 
-.home h2 span:nth-child(1) {
-  color: var(--red);
-}
-
-.home h2 span:nth-child(2) {
-  color: var(--green);
-}
-
-.home h2 span:nth-child(3) {
-  color: var(--blue);
+.home h2 span {
+  color: var(--accent);
 }
 
 .home h3 {
@@ -492,7 +465,7 @@ nav {
 }
 
 .awards h1 {
-  color: var(--red);
+  color: var(--blue);
   margin: 0 auto;
   font-size: 3rem;
 }
@@ -598,7 +571,7 @@ nav {
 }
 
 .projects h1 {
-  color: var(--green);
+  color: var(--blue);
   margin: 0 auto;
   font-size: 3rem;
 }
@@ -611,6 +584,7 @@ nav {
 
 .projects-sub a {
   text-decoration: underline;
+  color: var(--red);
 }
 
 .projects-sub a:hover {
