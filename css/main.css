@@ -449,7 +449,7 @@ nav {
 }
 
 .project-item:hover > img {
-  animation: rotation 1s infinite linear;
+  animation: rotateforward 0.5s cubic-bezier(0.24, 0.59, 0.58, 1);
 }
 
 .project-item p {
@@ -461,10 +461,7 @@ nav {
   float: right;
   width: 2rem;
   margin-top: 0.6rem;
-}
-
-.project-item img:hover {
-  animation: rotation 1s infinite linear;
+  animation: rotateback 0.5s cubic-bezier(0.24, 0.59, 0.58, 1);
 }
 
 @keyframes rotation {
