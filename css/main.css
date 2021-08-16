@@ -106,23 +106,7 @@ nav {
 }
 
 .navbar-logo:hover p {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 3s ease infinite;
-  -moz-animation: gradientAnimation 3s ease infinite;
-  -o-animation: gradientAnimation 3s ease infinite;
-  animation: gradientAnimation 3s ease infinite;
+  /* TODO */
 }
 
 .navbar ul {
@@ -147,7 +131,7 @@ nav {
 }
 
 .navbar ul li a:hover {
-  /* TODO */
+  color: var(--blue);
 }
 
 .navbar-mobile {
@@ -507,44 +491,12 @@ nav {
 }
 
 .active h1 {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
+  color: var(--blue);
 }
 
 .active,
 .accordion:hover > h1 {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
+  color: var(--blue);
 }
 
 .panel {
@@ -588,24 +540,6 @@ nav {
 }
 
 .projects-sub a:hover {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
-  text-decoration: none;
 }
 
 .project-container {
@@ -632,23 +566,11 @@ nav {
 }
 
 .project-item:hover > a h1 {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
+  color: var(--blue);
+}
+
+.project-item:hover > img {
+  animation: rotation 1s infinite linear;
 }
 
 .project-item p {
@@ -715,27 +637,8 @@ nav {
 }
 
 .teams a button:hover span {
-  background: linear-gradient(
-    90deg,
-    var(--red),
-    var(--orange),
-    var(--yellow),
-    var(--green),
-    var(--blue),
-    var(--purple)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 300% 100%;
-  -webkit-animation: gradientAnimation 5s ease infinite;
-  -moz-animation: gradientAnimation 5s ease infinite;
-  -o-animation: gradientAnimation 5s ease infinite;
-  animation: gradientAnimation 5s ease infinite;
-}
-
-.teams a button:hover span {
-  font-weight: bold;
+  color: var(--blue);
+  font-weight: 500;
 }
 
 .teams a button:hover i {
