@@ -81,21 +81,33 @@ nav {
   height: 3.5em;
   margin: 1.5rem 0.5rem;
   float: left;
+  animation: rotateback 0.5s cubic-bezier(0.24, 0.59, 0.58, 1);
 }
 
 .navbar-logo:hover img {
-  animation: rotation 1s infinite linear;
+  animation: rotateforward 0.5s cubic-bezier(0.24, 0.59, 0.58, 1);
 }
 
-@keyframes rotation {
+@keyframes rotateforward {
   from {
     transform: rotate(0deg);
   }
 
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
   }
 }
+
+@keyframes rotateback {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 
 .navbar-logo p {
   display: inline;
