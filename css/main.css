@@ -546,6 +546,14 @@ nav {
   background: var(--background-alternate);
 }
 
+/* small laptop screen media query */
+@media screen and (max-width: 1300px) {
+  .home {
+    padding-top: 8rem !important;
+  }
+}
+
+/* mobile media query */
 @media screen and (max-width: 800px) {
   .navbar-logo {
     display: none;
