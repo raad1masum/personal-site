@@ -527,7 +527,8 @@ nav {
 }
 
 ::selection {
-  background-color: var(--red);
+  background-color: white;
+  color: black;
 }
 
 ::-webkit-scrollbar {
